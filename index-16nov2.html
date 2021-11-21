@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-16nov2.css">
+    <title>Submenu</title>
+</head>
+
+<body>
+    <nav>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li>
+                <label for="drop-2" class="toggle">
+           <p>Services</p>
+            </label>
+                <a href="#">
+                    <p>Services</p>
+                </a>
+                <input type="checkbox" id="drop-2">
+                <ul>
+                    <li><a href="#">Section 1</a></li>
+                    <li><a href="#">Section 2</a></li>
+                    <li><a href="#">Section 3</a></li>
+                    <li>
+                        <label for="drop-3" class="toggle">
+                    <p>Section 2</p>
+                     </label>
+                        <a href="#">
+                            <p>Section 2</p>
+                        </a>
+                        <input type="checkbox" id="drop-3">
+                        <ul>
+                            <li><a href="#">Section 1</a></li>
+                            <li><a href="#">Section 2</a></li>
+                            <li><a href="#">Section 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">Career</a></li>
+        </ul>
+    </nav>
+    <div>
+        <p>You can see the dropdown menu in services<br>and the next dropdown menu at the last in services</p>
+    </div>
+</body>
+
+</html>
